@@ -1,0 +1,11 @@
+###
+POST https://localhost:5001/api/funcionario/create
+Content-Type: application/json
+
+{
+    "Nome": "Raphael Marangoni",
+    "Idade": 28
+}
+
+###
+GET https://localhost:5001/api/funcionario/list

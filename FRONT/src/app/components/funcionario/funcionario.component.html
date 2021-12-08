@@ -1,0 +1,19 @@
+<div style="text-align: center;">
+    <mat-card>
+        <mat-card style="text-align: center; margin-top: 20px;">
+            <p>CADASTRO DE USUÁRIO</p>
+            <mat-form-field class="example-full-width mgInput" appearance="fill">
+                <mat-label for="nome">Nome</mat-label>
+                <input matInput name="nome" [(ngModel)]="nome">
+            </mat-form-field><br>
+            <mat-form-field class="example-full-width mgInput" appearance="fill">
+                <mat-label for="idade">Idade</mat-label>
+                <input matInput type="number" name="idade" [(ngModel)]="idade">
+            </mat-form-field><br>
+            <div>
+                <button (click)="cadastrar()" mat-raised-button color="primary">Cadastrar</button>
+            </div>
+        </mat-card>
+    </mat-card>
+</div>
+
